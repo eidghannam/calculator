@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/e9db1c68b0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <input type="text" class="display" readonly />
+        <div class="keys">
+          <button class="operation-btn" onclick="appendToDisplay('+')">
+            +
+          </button>
+          <button onclick="appendToDisplay('7')">7</button>
+          <button onclick="appendToDisplay('8')">8</button>
+          <button onclick="appendToDisplay('9')">9</button>
+          <button class="operation-btn" onclick="appendToDisplay('-')">
+            -
+          </button>
+          <button onclick="appendToDisplay('4')">4</button>
+          <button onclick="appendToDisplay('5')">5</button>
+          <button onclick="appendToDisplay('6')">6</button>
+          <button class="operation-btn" onclick="appendToDisplay('*')">
+            *
+          </button>
+          <button onclick="appendToDisplay('1')">1</button>
+          <button onclick="appendToDisplay('2')">2</button>
+          <button onclick="appendToDisplay('3')">3</button>
+          <button class="operation-btn" onclick="appendToDisplay('/')">
+            /
+          </button>
+          <button onclick="appendToDisplay('0')">0</button>
+          <button onclick="appendToDisplay('.')">.</button>
+          <button class="operation-btn" onclick="calculate()">=</button>
+          <button class="operation-btn" onclick="clearDisplay()">C</button>
+          <button class="dark-btn"><i class="fa-regular fa-moon"></i></button>
+          <button class="fire-btn">
+            <i class="fa-solid fa-fire-flame-curved" style="color: #ff8b3d"></i>
+          </button>
+          <button class="blue-btn">
+            <i class="fa-solid fa-droplet" style="color: #74c0fc"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
