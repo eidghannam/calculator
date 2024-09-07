@@ -8,6 +8,10 @@ A simple web-based calculator with multiple themes. Built using HTML, CSS, and J
 - Clear display functionality.
 - Themed interfaces: Default, Dark, Fire, and Blue.
 
+## Demo
+
+You can view a live demo of the project [here](https://eidghannam.github.io./calculator/).
+
 ## Installation
 
 1. Clone the repository:
